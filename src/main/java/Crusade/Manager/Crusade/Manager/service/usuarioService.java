@@ -17,10 +17,15 @@ public class usuarioService {
     public List<usuarioModel> getAll() {
         return repo.findAll();
     }
-
+    
     public Optional<usuarioModel> getById(Long id) {
         return repo.findById(id);
     }
+
+    public Optional<usuarioModel> findByEmail(String email) {
+        return repo.findByEmail(email);
+    }
+    
 
     public usuarioModel save(usuarioModel usuario) {
         return repo.save(usuario);
