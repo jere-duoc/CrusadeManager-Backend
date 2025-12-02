@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Crusade.Manager.Crusade.Manager.CrusadeManagerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.897 s -- in Crusade.Manager.Crusade.Manager.CrusadeManagerApplicationTests
