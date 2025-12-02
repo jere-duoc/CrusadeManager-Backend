@@ -1,4 +1,9 @@
-# Archivo: .gitignore
 /target/
 /.vscode/
 **/*.class
+
+application.properties
+src/main/resources/application.properties
+
+*.log
+.DS_Store
