@@ -1,7 +1,7 @@
-package main.java.Crusade.Manager.Crusade.Manager.service;
+package Crusade.Manager.Crusade.Manager.service;
 
-import main.java.Crusade.Manager.Crusade.Manager.model.Unidad;
-import main.java.Crusade.Manager.Crusade.Manager.repository.UnidadRepository;
+import Crusade.Manager.Crusade.Manager.model.Unidad;
+import Crusade.Manager.Crusade.Manager.repository.UnidadRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

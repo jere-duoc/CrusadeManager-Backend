@@ -1,6 +1,6 @@
-package main.java.Crusade.Manager.Crusade.Manager.repository;
+package Crusade.Manager.Crusade.Manager.repository;
 
-import main.java.Crusade.Manager.Crusade.Manager.model.Unidad;
+import Crusade.Manager.Crusade.Manager.model.Unidad;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

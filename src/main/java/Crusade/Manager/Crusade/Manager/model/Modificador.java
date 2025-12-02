@@ -1,4 +1,4 @@
-package main.java.Crusade.Manager.Crusade.Manager.model;
+package Crusade.Manager.Crusade.Manager.model;
 
 public class Modificador {
 
