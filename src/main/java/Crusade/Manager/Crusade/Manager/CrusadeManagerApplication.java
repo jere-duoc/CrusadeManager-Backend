@@ -21,8 +21,8 @@ public class CrusadeManagerApplication {
 			if(usuarioRepository.count() == 0) {
 				usuarioModel usuario = new usuarioModel();
 				usuario.setName("Usuario H2");
-				usuario.setEmail("h2user@example.com");
-				usuario.setPassword("1234");
+				usuario.setEmail("user@user.com");
+				usuario.setPassword("123456");
 				usuarioRepository.save(usuario);
 
 				System.out.println("Usuario de prueba creado en H2");

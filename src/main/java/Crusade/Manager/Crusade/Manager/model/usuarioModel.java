@@ -17,10 +17,21 @@ public class usuarioModel {
     private String email;
 
     @Column(columnDefinition = "TEXT")
-    private String avatar; // Puede ser URL o base64
+    private String avatar; 
 
     @Column(nullable = false)
     private String password;
+
+    // --- 1. NUEVOS CAMPOS PARA VERIFICACIÓN ---
+    
+    // Aquí guardaremos el código largo que va en el link
+    @Column(name = "verification_code", length = 64)
+    private String verificationCode;
+
+    // Esto dice si el usuario puede entrar (true) o no (false)
+    private boolean enabled; 
+
+    // ------------------------------------------
 
     public usuarioModel() {
     }
@@ -32,6 +43,7 @@ public class usuarioModel {
         this.password = password;
     }
 
+    // Getters y Setters normales
     public Long getId() {
         return id;
     }
@@ -70,5 +82,23 @@ public class usuarioModel {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    // --- 2. GETTERS Y SETTERS NUEVOS ---
+
+    public String getVerificationCode() {
+        return verificationCode;
+    }
+
+    public void setVerificationCode(String verificationCode) {
+        this.verificationCode = verificationCode;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 }
