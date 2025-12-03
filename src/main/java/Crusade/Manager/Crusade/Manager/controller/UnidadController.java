@@ -1,8 +1,19 @@
-package main.java.Crusade.Manager.Crusade.Manager.controller;
+package Crusade.Manager.Crusade.Manager.controller;
 
-import main.java.Crusade.Manager.Crusade.Manager.model.Unidad;
-import main.java.Crusade.Manager.Crusade.Manager.service.UnidadService;
+import Crusade.Manager.Crusade.Manager.model.Unidad;
+import Crusade.Manager.Crusade.Manager.service.UnidadService;
+import Crusade.Manager.Crusade.Manager.exception.ResourceNotFoundException;
+import Crusade.Manager.Crusade.Manager.exception.BadRequestException;
+
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.Parameter;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 

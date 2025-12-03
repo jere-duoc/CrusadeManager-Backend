@@ -1,4 +1,4 @@
-package main.java.Crusade.Manager.Crusade.Manager.model;
+package Crusade.Manager.Crusade.Manager.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
