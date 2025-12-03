@@ -90,9 +90,9 @@ public class usuarioController {
         boolean exito = service.verificarCodigo(code);
 
         if (exito) {
-            response.sendRedirect("http://localhost:5173/login?status=success");
+            response.sendRedirect("http://warhammer-app-final.s3-website-us-east-1.amazonaws.com/login?status=success");
         } else {
-            response.sendRedirect("http://localhost:5173/login?status=error");
+            response.sendRedirect("http://warhammer-app-final.s3-website-us-east-1.amazonaws.com/login?status=error");
         }
     }
 

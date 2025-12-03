@@ -1,5 +1,15 @@
-Crusade/Manager/Crusade/Manager/controller/usuarioController.class
 Crusade/Manager/Crusade/Manager/CrusadeManagerApplication.class
-Crusade/Manager/Crusade/Manager/repository/usuarioRepository.class
+Crusade/Manager/Crusade/Manager/model/Unidad.class
 Crusade/Manager/Crusade/Manager/service/usuarioService.class
+Crusade/Manager/Crusade/Manager/config/CorsConfig.class
+Crusade/Manager/Crusade/Manager/service/UnidadService.class
+Crusade/Manager/Crusade/Manager/repository/usuarioRepository.class
 Crusade/Manager/Crusade/Manager/model/usuarioModel.class
+Crusade/Manager/Crusade/Manager/exception/BadRequestException.class
+Crusade/Manager/Crusade/Manager/config/CorsConfig$1.class
+Crusade/Manager/Crusade/Manager/controller/UnidadController.class
+Crusade/Manager/Crusade/Manager/repository/UnidadRepository.class
+Crusade/Manager/Crusade/Manager/exception/ResourceNotFoundException.class
+Crusade/Manager/Crusade/Manager/controller/usuarioController.class
+Crusade/Manager/Crusade/Manager/model/Modificador.class
+Crusade/Manager/Crusade/Manager/model/Caracteristica.class
